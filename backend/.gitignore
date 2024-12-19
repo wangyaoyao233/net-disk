@@ -1,0 +1,74 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the Go toolchain
+*.out
+
+# Build artifacts
+/bin/
+/build/
+/dist/
+/release/
+
+# Go modules
+/go.sum
+/go.work
+/go.work.sum
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Dependency directories (vendor)
+vendor/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+*.cover
+*.cov
+
+# Generated files
+gen/
+*.gen.go
+
+# Private keys or credentials (you should manage these securely)
+*.key
+*.pem
+*.env
+
+# Node.js dependencies (if using with Go)
+node_modules/
+
+# Ignore specific Go tools
+/staticcheck.log
+/golint.log
+/godoc.log
+/gopls.log
+
+# Cache directories
+/.cache/
+/.tmp/
+/.cache/
+/logs/
+
+# Database files
+*.db
